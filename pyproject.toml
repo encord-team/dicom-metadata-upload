@@ -1,0 +1,14 @@
+[tool.poetry]
+authors = ["Encord <support@encord.com>"]
+description = "dicom-metadata-upload"
+name = "dicom-metadata-upload"
+version = "0.0.1"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+encord = "^0.1.147"
+pydicom = "^3.0.1"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
